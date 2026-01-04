@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import thumbnail1 from "./../assets/Youtube Thumbnails/gig7.jpg";
 import thumbnail2 from "./../assets/Youtube Thumbnails/gig8.jpg";
 import thumbnail3 from "./../assets/Youtube Thumbnails/gig9.jpg";
+import thumbnail4 from "./../assets/Youtube Thumbnails/WhatsApp Image 2025-12-29 at 23.11.12.jpeg";
 
 // Theme (matches Home)
 const COLORS = {
@@ -86,7 +87,8 @@ const YouTubeThumbnailsSection = () => {
   const featured = [
     { src: thumbnail1, title: "Thumbnail 1", category: "YouTube • Thumbnail" },
     { src: thumbnail2, title: "Thumbnail 2", category: "YouTube • Thumbnail" },
-    { src: thumbnail3, title: "Thumbnail 3", category: "YouTube • Thumbnail" }
+    { src: thumbnail3, title: "Thumbnail 3", category: "YouTube • Thumbnail" },
+    { src: thumbnail4, title: "Thumbnail 4", category: "YouTube • Thumbnail" }
   ];
 
   // If you ever add more, you can extend this array and the UI will adapt.
