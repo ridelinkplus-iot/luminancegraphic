@@ -32,7 +32,6 @@ function App() {
   const [showPopup, setShowPopup] = useState(false);
   const popupRef = useRef(null); // Ref for accessibility
 
-  // Show after preloader finishes, only once per session
   useEffect(() => {
     if (!isLoading) {
       const seen = sessionStorage.getItem("welcomePopupShown");
